@@ -1,0 +1,13 @@
+.Card {
+  border: 2px solid #bbbbbb;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+.card-element {
+  border-bottom: 2px solid #bbbbbb;
+}
+p,
+h3 {
+  padding: 0px 10px;
+}

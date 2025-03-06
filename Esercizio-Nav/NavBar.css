@@ -1,0 +1,57 @@
+.Navbar,
+ul,
+li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: rgb(46, 44, 44);
+}
+.Navbar > ul {
+  width: 100%;
+  margin: 15px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 30px;
+}
+ul > li {
+  margin: 5px 20px;
+  list-style-type: none;
+}
+li,
+a {
+  color: rgb(207, 194, 194);
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  font-weight: bold;
+}
+.Button:hover {
+  background-color: green;
+  color: white;
+}
+.search {
+  overflow: hidden;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.Button {
+  border: 1px solid green;
+  border-radius: 10px;
+}
+select {
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  background-color: transparent;
+  color: grey;
+}
+@media (max-width: 768px) {
+  .Navbar {
+    display: none;
+    width: 100%;
+  }
+  .hamburger {
+    display: flex;
+  }
+}

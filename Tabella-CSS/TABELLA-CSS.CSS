@@ -1,0 +1,40 @@
+table,
+td,
+th {
+  border: 1px solid #263238;
+  border-collapse: collapse;
+  padding: 10px;
+  width: 50%;
+  height: 10px;
+}
+caption {
+  font-weight: bold;
+  font-size: 18px;
+  color: #263238;
+  margin-bottom: 10px;
+}
+
+th {
+  color: white;
+  background-color: #455a64;
+  font-weight: 700;
+}
+
+tr:nth-child(even) {
+  background-color: #eceff1;
+}
+tr:nth-child(odd) {
+  background-color: #b0bec5;
+}
+tr.ultima-riga {
+  font-weight: 800;
+  background-color: #78909c;
+}
+td.entrate {
+  color: #003300;
+  text-align: right;
+}
+td.uscite {
+  color: #7f0000;
+  text-align: right;
+}
